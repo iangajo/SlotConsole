@@ -11,7 +11,7 @@ namespace XUnitTestSlots
     {
 
         [Fact]
-        public void PayLine_Win()
+        public void PayLine_AllMatched_Win()
         {
             var game = new Game(new Reel(), new Win());
 

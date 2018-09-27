@@ -65,7 +65,7 @@ namespace Slots.Domains
 
                 if (winnings.Any()) win = true;
 
-                winAmount += _win.ComputerWinnings(winnings, betAmount);
+                winAmount += _win.ComputeWinnings(winnings, betAmount);
 
             } while (winnings.Any());
 

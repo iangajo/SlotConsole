@@ -75,7 +75,7 @@ namespace Slots.Domains
             }
         }
 
-        public decimal ComputerWinnings(List<Winnings> winningResultsList, decimal betAmount)
+        public decimal ComputeWinnings(List<Winnings> winningResultsList, decimal betAmount)
         {
             var winAmount = 0.00m;
 

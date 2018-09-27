@@ -7,7 +7,7 @@ namespace Slots.Domains
     {
         string[] GetWinningPayLine(int win);
 
-        decimal ComputerWinnings(List<Winnings> winningResultsList, decimal betAmount);
+        decimal ComputeWinnings(List<Winnings> winningResultsList, decimal betAmount);
 
         List<Odds> GetOddsTable();
     }

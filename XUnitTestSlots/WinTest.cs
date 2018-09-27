@@ -10,7 +10,7 @@ namespace XUnitTestSlots
     public class WinTest
     {
         [Fact]
-        public void Win_1000()
+        public void Player_Win_1000()
         {
             var win = new Win();
 
@@ -21,13 +21,13 @@ namespace XUnitTestSlots
 
             var betAmount = 1;
 
-            var winAmount = win.ComputerWinnings(winnings, betAmount);
+            var winAmount = win.ComputeWinnings(winnings, betAmount);
 
             Assert.Equal(1000, winAmount);
         }
 
         [Fact]
-        public void Win_1080()
+        public void Player_Win_1080()
         {
             var win = new Win();
 
@@ -39,13 +39,13 @@ namespace XUnitTestSlots
 
             var betAmount = 1;
 
-            var winAmount = win.ComputerWinnings(winnings, betAmount);
+            var winAmount = win.ComputeWinnings(winnings, betAmount);
 
             Assert.Equal(1080, winAmount);
         }
 
         [Fact]
-        public void Win_45()
+        public void Player_Win_45()
         {
             var win = new Win();
 
@@ -57,13 +57,13 @@ namespace XUnitTestSlots
 
             var betAmount = 1;
 
-            var winAmount = win.ComputerWinnings(winnings, betAmount);
+            var winAmount = win.ComputeWinnings(winnings, betAmount);
 
             Assert.Equal(45, winAmount);
         }
 
         [Fact]
-        public void Win_1800()
+        public void Player_Win_1800()
         {
             var win = new Win();
 
@@ -81,13 +81,13 @@ namespace XUnitTestSlots
 
             var betAmount = 1;
 
-            var winAmount = win.ComputerWinnings(winnings, betAmount);
+            var winAmount = win.ComputeWinnings(winnings, betAmount);
 
             Assert.Equal(1800, winAmount);
         }
 
         [Fact]
-        public void Win_0()
+        public void Player_Win_0()
         {
             var win = new Win();
 
@@ -98,13 +98,13 @@ namespace XUnitTestSlots
 
             var betAmount = 1;
 
-            var winAmount = win.ComputerWinnings(winnings, betAmount);
+            var winAmount = win.ComputeWinnings(winnings, betAmount);
 
             Assert.Equal(0, winAmount);
         }
 
         [Fact]
-        public void Win_40()
+        public void Player_Win_40()
         {
             var win = new Win();
 
@@ -115,13 +115,13 @@ namespace XUnitTestSlots
 
             var betAmount = 1;
 
-            var winAmount = win.ComputerWinnings(winnings, betAmount);
+            var winAmount = win.ComputeWinnings(winnings, betAmount);
 
             Assert.Equal(40, winAmount);
         }
 
         [Fact]
-        public void Win_130()
+        public void Player_Win_130()
         {
             var win = new Win();
 
@@ -134,7 +134,7 @@ namespace XUnitTestSlots
 
             var betAmount = 1;
 
-            var winAmount = win.ComputerWinnings(winnings, betAmount);
+            var winAmount = win.ComputeWinnings(winnings, betAmount);
 
             Assert.Equal(130, winAmount);
         }
