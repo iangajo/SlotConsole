@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using Slots.Domains;
 using Xunit;
@@ -25,6 +26,7 @@ namespace XUnitTestSlots
             var resultCount = results.Count;
 
             Assert.Equal(30, resultCount);
+            Assert.Equal("S7", results.First().Symbol);
         }
 
         [Fact]
@@ -43,6 +45,7 @@ namespace XUnitTestSlots
             var resultCount = results.Count;
             
             Assert.Equal(3, resultCount);
+            Assert.Equal("S7", results.First().Symbol);
         }
 
         [Fact]
@@ -61,6 +64,7 @@ namespace XUnitTestSlots
             var resultCount = results.Count;
 
             Assert.Equal(2, resultCount);
+            Assert.Equal("S7", results.First().Symbol);
         }
 
         [Fact]
@@ -79,6 +83,7 @@ namespace XUnitTestSlots
             var resultCount = results.Count;
 
             Assert.Equal(9, resultCount);
+            Assert.Equal("S7", results.First().Symbol);
         }
 
         [Fact]
@@ -96,7 +101,8 @@ namespace XUnitTestSlots
             var results = game.CheckPlayerWin(slots);
             var resultCount = results.Count;
 
-            Assert.Equal(2, resultCount);
+            Assert.Equal(2, resultCount);     
+            Assert.NotEmpty(results);
         }
 
         [Fact]
@@ -115,6 +121,7 @@ namespace XUnitTestSlots
             var resultCount = results.Count;
 
             Assert.Equal(4, resultCount);
+            Assert.NotEmpty(results);
         }
     }
 }

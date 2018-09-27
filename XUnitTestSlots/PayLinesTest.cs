@@ -23,6 +23,7 @@ namespace XUnitTestSlots
             var resultCount = results.Count;
             //line 1, 28 and 29
             Assert.Equal(3, resultCount);
+            Assert.NotEmpty(results);
         }
 
         [Fact]
@@ -60,6 +61,7 @@ namespace XUnitTestSlots
             //line 3
             Assert.Equal(1, resultCount);
             Assert.Equal("S7", results.First().Symbol);
+            Assert.NotEmpty(results);
         }
 
         [Fact]
@@ -79,6 +81,7 @@ namespace XUnitTestSlots
             //line 4
             Assert.Equal(1, resultCount);
             Assert.Equal("S7", results.First().Symbol);
+            Assert.NotEmpty(results);
         }
 
         [Fact]
@@ -98,6 +101,7 @@ namespace XUnitTestSlots
             //line 5
             Assert.Equal(1, resultCount);
             Assert.Equal("S7", results.First().Symbol);
+            Assert.NotEmpty(results);
         }
 
         [Fact]
@@ -116,6 +120,8 @@ namespace XUnitTestSlots
             var resultCount = results.Count;
             //line 6
             Assert.Equal(1, resultCount);
+            Assert.Equal("S7", results.First().Symbol);
+            Assert.NotEmpty(results);
         }
 
         [Fact]
@@ -133,7 +139,8 @@ namespace XUnitTestSlots
             var results = game.CheckPlayerWin(slots);
             var resultCount = results.Count;
             //line 7
-            Assert.Equal(1, resultCount);
+            Assert.Equal("S7", results.First().Symbol);
+            Assert.NotEmpty(results);
         }
 
         [Fact]
@@ -152,6 +159,8 @@ namespace XUnitTestSlots
             var resultCount = results.Count;
             //line 8
             Assert.Equal(1, resultCount);
+            Assert.Equal("S7", results.First().Symbol);
+            Assert.NotEmpty(results);
         }
 
         [Fact]
@@ -170,6 +179,8 @@ namespace XUnitTestSlots
             var resultCount = results.Count;
             //line 9
             Assert.Equal(1, resultCount);
+            Assert.Equal("S7", results.First().Symbol);
+            Assert.NotEmpty(results);
         }
 
         [Fact]
@@ -188,6 +199,8 @@ namespace XUnitTestSlots
             var resultCount = results.Count;
             //line 10
             Assert.Equal(1, resultCount);
+            Assert.Equal("S7", results.First().Symbol);
+            Assert.NotEmpty(results);
         }
 
         [Fact]
@@ -207,6 +220,7 @@ namespace XUnitTestSlots
             //line 11
             Assert.Equal(1, resultCount);
             Assert.Equal("S7", results.First().Symbol);
+            Assert.NotEmpty(results);
         }
 
         [Fact]
@@ -226,6 +240,7 @@ namespace XUnitTestSlots
             //line 12
             Assert.Equal(1, resultCount);
             Assert.Equal("S7", results.First().Symbol);
+            Assert.NotEmpty(results);
         }
 
         [Fact]
@@ -244,6 +259,8 @@ namespace XUnitTestSlots
             var resultCount = results.Count;
             //line 13
             Assert.Equal(1, resultCount);
+            Assert.Equal("S7", results.First().Symbol);
+            Assert.NotEmpty(results);
         }
 
         [Fact]
@@ -263,6 +280,7 @@ namespace XUnitTestSlots
             //line 14
             Assert.Equal(1, resultCount);
             Assert.Equal("S7", results.First().Symbol);
+            Assert.NotEmpty(results);
         }
 
         [Fact]
@@ -281,6 +299,8 @@ namespace XUnitTestSlots
             var resultCount = results.Count;
             //line 15
             Assert.Equal(1, resultCount);
+            Assert.Equal("S7", results.First().Symbol);
+            Assert.NotEmpty(results);
         }
 
         [Fact]
@@ -299,6 +319,8 @@ namespace XUnitTestSlots
             var resultCount = results.Count;
             //line 16
             Assert.Equal(1, resultCount);
+            Assert.Equal("S7", results.First().Symbol);
+            Assert.NotEmpty(results);
         }
 
         [Fact]
@@ -317,6 +339,8 @@ namespace XUnitTestSlots
             var resultCount = results.Count;
             //line 17
             Assert.Equal(1, resultCount);
+            Assert.Equal("S7", results.First().Symbol);
+            Assert.NotEmpty(results);
         }
 
         [Fact]
@@ -333,8 +357,10 @@ namespace XUnitTestSlots
 
             var results = game.CheckPlayerWin(slots);
             var resultCount = results.Count;
-            //line 3
+            //line 18
             Assert.Equal(1, resultCount);
+            Assert.Equal("S7", results.First().Symbol);
+            Assert.NotEmpty(results);
         }
 
         [Fact]
@@ -353,6 +379,8 @@ namespace XUnitTestSlots
             var resultCount = results.Count;
             //line 19
             Assert.Equal(1, resultCount);
+            Assert.Equal("S7", results.First().Symbol);
+            Assert.NotEmpty(results);
         }
 
         [Fact]
@@ -371,6 +399,8 @@ namespace XUnitTestSlots
             var resultCount = results.Count;
             //line 20
             Assert.Equal(1, resultCount);
+            Assert.Equal("S7", results.First().Symbol);
+            Assert.NotEmpty(results);
         }
 
         [Fact]
@@ -389,6 +419,8 @@ namespace XUnitTestSlots
             var resultCount = results.Count;
             //line 21
             Assert.Equal(1, resultCount);
+            Assert.Equal("S7", results.First().Symbol);
+            Assert.NotEmpty(results);
         }
 
         [Fact]
@@ -407,6 +439,8 @@ namespace XUnitTestSlots
             var resultCount = results.Count;
             //line 22
             Assert.Equal(1, resultCount);
+            Assert.Equal("S7", results.First().Symbol);
+            Assert.NotEmpty(results);
         }
 
         [Fact]
@@ -425,6 +459,8 @@ namespace XUnitTestSlots
             var resultCount = results.Count;
             //line 23
             Assert.Equal(1, resultCount);
+            Assert.Equal("S7", results.First().Symbol);
+            Assert.NotEmpty(results);
         }
 
         [Fact]
@@ -443,6 +479,8 @@ namespace XUnitTestSlots
             var resultCount = results.Count;
             //line 24
             Assert.Equal(1, resultCount);
+            Assert.Equal("S7", results.First().Symbol);
+            Assert.NotEmpty(results);
         }
 
         [Fact]
@@ -461,6 +499,8 @@ namespace XUnitTestSlots
             var resultCount = results.Count;
             //line 25
             Assert.Equal(1, resultCount);
+            Assert.Equal("S7", results.First().Symbol);
+            Assert.NotEmpty(results);
         }
 
         [Fact]
@@ -479,6 +519,7 @@ namespace XUnitTestSlots
             var resultCount = results.Count;
             //line 26 and 30
             Assert.Equal(2, resultCount);
+            Assert.NotEmpty(results);
         }
 
         [Fact]
@@ -497,6 +538,8 @@ namespace XUnitTestSlots
             var resultCount = results.Count;
             //line 27
             Assert.Equal(1, resultCount);
+            Assert.Equal("S7", results.First().Symbol);
+            Assert.NotEmpty(results);
         }
 
         [Fact]
@@ -515,6 +558,7 @@ namespace XUnitTestSlots
             var resultCount = results.Count;
             //line 1, 28 and 29
             Assert.Equal(3, resultCount);
+            Assert.NotEmpty(results);
         }
 
         [Fact]
@@ -533,6 +577,7 @@ namespace XUnitTestSlots
             var resultCount = results.Count;
             //line 1, 28 and 29
             Assert.Equal(3, resultCount);
+            Assert.NotEmpty(results);
         }
 
         [Fact]
@@ -551,6 +596,7 @@ namespace XUnitTestSlots
             var resultCount = results.Count;
             //line 26 and 30
             Assert.Equal(2, resultCount);
+            Assert.NotEmpty(results);
         }
     }
 }
